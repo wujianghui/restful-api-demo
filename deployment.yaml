@@ -31,6 +31,6 @@ spec:
       - name: pipeline-docker-registry
       containers:
       - name: maven
-        image: ${CICD_IMAGE}:${CICD_EXECUTION_SEQUENCE}
+        image: registry.cn-hangzhou.aliyuncs.com/wujianghui/restful-api-demo:dev
         ports:
         - containerPort: 8081
